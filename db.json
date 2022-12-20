@@ -1,29 +1,45 @@
 {
-    "games": [
-        {
-            "id": 1,
-            "name": "Resident Evil 4",
-            "type": "Terror"
-        },
-        {
-            "id": 2,
-            "name": "Tom",
-            "type": "Cat"
-        },
-        {
-            "id": 3,
-            "name": "Frida",
-            "type": "Dog"
-        },
-        {
-            "id": 4,
-            "name": "Bob",
-            "type": "Horse"
-        },
-        {
-            "id": 5,
-            "name": "Paco",
-            "type": "Bird"
-        }
-    ]
+  "games": [
+    {
+      "id": 1,
+      "name": "Resident Evil 4",
+      "type": "Terror"
+    },
+    {
+      "id": 2,
+      "name": "Tom",
+      "type": "Cat"
+    },
+    {
+      "id": 3,
+      "name": "Frida",
+      "type": "Dog"
+    },
+    {
+      "id": 4,
+      "name": "Bob",
+      "type": "Horse"
+    },
+    {
+      "id": 5,
+      "name": "Paco",
+      "type": "Bird"
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "aa",
+      "type": "aa"
+    },
+    {
+      "id": 9,
+      "name": "Mario",
+      "type": "Ação"
+    }
+  ]
 }
