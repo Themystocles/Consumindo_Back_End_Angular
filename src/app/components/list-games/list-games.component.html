@@ -1,0 +1,7 @@
+<p>Lista de Jogos</p>
+
+<ul *ngIf="listGames">
+    <li *ngFor="let games of listGames">
+        {{games.id}} {{games.name}}
+    </li>
+</ul>
