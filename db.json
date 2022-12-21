@@ -1,19 +1,9 @@
 {
   "games": [
     {
-      "id": 1,
-      "name": "Resident Evil 4",
-      "type": "Terror"
-    },
-    {
       "id": 2,
-      "name": "Tom",
-      "type": "Cat"
-    },
-    {
-      "id": 4,
-      "name": "Bob",
-      "type": "Horse"
+      "name": "Rocket",
+      "type": "Carro"
     },
     {
       "id": 6,
@@ -34,11 +24,6 @@
       "id": 9,
       "name": "Mario",
       "type": "Ação"
-    },
-    {
-      "id": 10,
-      "name": "Crash Car",
-      "type": ""
     }
   ]
 }

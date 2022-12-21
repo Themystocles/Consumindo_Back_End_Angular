@@ -1,8 +1,20 @@
 <p>Lista de Jogos</p>
 
-<ul *ngIf="listGames">
-    <li *ngFor="let games of listGames">
-        {{games.id}} {{games.name}} <a routerLink="/games/update/{{games.id}}">Editar</a> <a
-            routerLink="/games/delete/{{games.id}}">Delete</a>
-    </li>
-</ul>
+<table border="1">
+    <tr>
+        <td>ID:</td>
+        <td>NOME</td>
+        <td>TIPO</td>
+        <td>Editar</td>
+        <td>Deletar</td>
+
+    </tr>
+
+    <tr *ngFor="let games of listGames">
+        <td>{{games.id}}</td>
+        <td>{{games.name}} </td>
+        <td>{{games.type}}</td>
+        <td><a routerLink="/games/update/{{games.id}}"><mat-icon style="color: blue;">create</mat-icon></a></td>
+        <td><a routerLink="/games/delete/{{games.id}}"><mat-icon style="color: black;">delete</mat-icon></a></td>
+    </tr>
+</table>
