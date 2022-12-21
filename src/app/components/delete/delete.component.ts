@@ -37,4 +37,5 @@ export class DeleteComponent implements OnInit {
   delete() {
     this.server.delete(this.id).subscribe(res => { alert(`Game  ${this.game.name} foi Deletado  com sucesso!!!`) })
   }
+
 }
