@@ -11,35 +11,34 @@
       "type": "Cat"
     },
     {
-      "id": 3,
-      "name": "Frida",
-      "type": "Dog"
-    },
-    {
       "id": 4,
       "name": "Bob",
       "type": "Horse"
     },
     {
-      "id": 5,
-      "name": "Paco",
-      "type": "Bird"
+      "id": 6,
+      "name": "Residente Evil 3",
+      "type": "Terror"
     },
     {
-      "id": 6
-    },
-    {
-      "id": 7
+      "id": 7,
+      "name": "Reminent",
+      "type": "Ação co-oop"
     },
     {
       "id": 8,
-      "name": "aa",
-      "type": "aa"
+      "name": "God of War ",
+      "type": "Ação"
     },
     {
       "id": 9,
       "name": "Mario",
       "type": "Ação"
+    },
+    {
+      "id": 10,
+      "name": "Crash Car",
+      "type": ""
     }
   ]
 }

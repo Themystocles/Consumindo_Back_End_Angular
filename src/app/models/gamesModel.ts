@@ -4,3 +4,9 @@ export interface games {
     type: string;
 }
 
+export interface requestUpdate {
+    name: string;
+    type: string
+
+}
+

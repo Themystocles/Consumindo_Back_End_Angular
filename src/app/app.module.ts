@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ListGamesComponent } from './components/list-games/list-games.component';
 import { CreateGameComponent } from './components/create-game/create-game.component';
+import { UpdateGameComponent } from './components/update-game/update-game.component';
+import { DeleteComponent } from './components/delete/delete.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ListGamesComponent,
-    CreateGameComponent
+    CreateGameComponent,
+    UpdateGameComponent,
+    DeleteComponent
 
   ],
   imports: [

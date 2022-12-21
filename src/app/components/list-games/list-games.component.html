@@ -2,6 +2,7 @@
 
 <ul *ngIf="listGames">
     <li *ngFor="let games of listGames">
-        {{games.id}} {{games.name}}
+        {{games.id}} {{games.name}} <a routerLink="/games/update/{{games.id}}">Editar</a> <a
+            routerLink="/games/delete/{{games.id}}">Delete</a>
     </li>
 </ul>
